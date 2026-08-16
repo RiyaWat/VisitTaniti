@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#8a3324" />
+    <meta name="description" content="Lodging on Taniti — from oceanfront luxury resorts to the island's most affordable campground." />
+    <title>Lodging on Taniti — VisitTaniti</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="tn-nav" data-testid="main-nav">
+      <a href="index.html" class="tn-logo" data-testid="nav-logo"><i data-lucide="palmtree"></i> Visit<span>Taniti</span></a>
+      <div class="tn-links">
+        <a href="index.html" data-testid="nav-link-home">Home</a>
+        <a href="lodging.html" class="active" data-testid="nav-link-lodging">Lodging</a>
+        <a href="transportation.html" data-testid="nav-link-transportation">Transportation</a>
+        <a href="entertainment.html" data-testid="nav-link-entertainment">Entertainment</a>
+        <a href="faqs.html" data-testid="nav-link-faqs">FAQs</a>
+        <a href="contact.html" data-testid="nav-link-contact">Contact</a>
+      </div>
+      <button class="tn-burger" aria-label="Toggle menu" data-testid="nav-burger"><i data-lucide="menu"></i></button>
+    </nav>
+    <div class="tn-mobile" data-testid="mobile-menu">
+      <a href="index.html" data-testid="mobile-link-home">Home</a>
+      <a href="lodging.html" class="active" data-testid="mobile-link-lodging">Lodging</a>
+      <a href="transportation.html" data-testid="mobile-link-transportation">Transportation</a>
+      <a href="entertainment.html" data-testid="mobile-link-entertainment">Entertainment</a>
+      <a href="faqs.html" data-testid="mobile-link-faqs">FAQs</a>
+      <a href="contact.html" data-testid="mobile-link-contact">Contact</a>
+    </div>
+
+    <div class="tn-page">
+      <div class="tn-banner" data-testid="lodging-banner">
+        <img src="images/lodging.jpg" alt="Lodging on Taniti" />
+        <div class="scrim"></div>
+        <div class="inner fade-up">
+          <div class="tn-eyebrow" style="color:#f4a26b;">Where to Stay</div>
+          <h1>Lodging on Taniti</h1>
+        </div>
+      </div>
+
+      <section class="tn-wrap">
+        <div class="tn-section-head">
+          <h2 class="tn-h2">Find your perfect stay</h2>
+          <p class="tn-lead">Options for every budget — from oceanfront luxury to the island's most affordable campground.</p>
+        </div>
+        <div class="tn-grid cols-2">
+          <div class="tn-card reveal" data-testid="lodging-card-taniti-grand-resort">
+            <div class="body">
+              <span class="tn-badge">Luxury</span>
+              <h3>Taniti Grand Resort</h3>
+              <div class="tn-price" data-testid="price-taniti-grand-resort">$$$</div>
+              <p style="flex:1;">Oceanfront suites, full spa, pools, and fine dining. The premier honeymoon choice on the island.</p>
+              <a href="contact.html" class="tn-btn small" data-testid="book-taniti-grand-resort" style="align-self:flex-start;">Book <i data-lucide="arrow-right" style="width:15px;height:15px;"></i></a>
+            </div>
+          </div>
+          <div class="tn-card reveal" data-testid="lodging-card-beachfront-hotels">
+            <div class="body">
+              <span class="tn-badge">Mid-range</span>
+              <h3>Beachfront Hotels</h3>
+              <div class="tn-price" data-testid="price-beachfront-hotels">$$</div>
+              <p style="flex:1;">Comfortable hotels near Taniti City's beaches, walkable to shops and the bus lines.</p>
+              <a href="contact.html" class="tn-btn small" data-testid="book-beachfront-hotels" style="align-self:flex-start;">Book <i data-lucide="arrow-right" style="width:15px;height:15px;"></i></a>
+            </div>
+          </div>
+          <div class="tn-card reveal" data-testid="lodging-card-merriton-landing-b&bs">
+            <div class="body">
+              <span class="tn-badge">Budget-friendly</span>
+              <h3>Merriton Landing B&amp;Bs</h3>
+              <div class="tn-price" data-testid="price-merriton-landing-b&bs">$</div>
+              <p style="flex:1;">Charming bed &amp; breakfasts steps from Merriton Landing's dining and nightlife.</p>
+              <a href="contact.html" class="tn-btn small" data-testid="book-merriton-landing-b&bs" style="align-self:flex-start;">Book <i data-lucide="arrow-right" style="width:15px;height:15px;"></i></a>
+            </div>
+          </div>
+          <div class="tn-card reveal" data-testid="lodging-card-seaside-campground">
+            <div class="body">
+              <span class="tn-badge best"><i data-lucide="star" style="width:12px;height:12px;margin-right:4px;"></i>Cheapest</span>
+              <h3>Seaside Campground</h3>
+              <div class="tn-price" data-testid="price-seaside-campground">$</div>
+              <p style="flex:1;">The most budget-friendly option — beachside tent and cabin sites with shared facilities.</p>
+              <a href="contact.html" class="tn-btn small" data-testid="book-seaside-campground" style="align-self:flex-start;">Book <i data-lucide="arrow-right" style="width:15px;height:15px;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="tn-callout reveal" data-testid="cheapest-note">
+          <h3 class="tn-display">Traveling on a budget?</h3>
+          <p>The <strong>Seaside Campground</strong> is our cheapest, most budget-friendly option — beachside sites with shared facilities.</p>
+        </div>
+      </section>
+
+      <footer class="tn-footer" data-testid="footer">
+        <div class="fwrap">
+          <div>
+            <div class="tn-logo" style="color:#fff;">Visit<span style="color:#f4a26b;">Taniti</span></div>
+            <div class="small">The official trip-planning site for the island of Taniti.</div>
+          </div>
+          <div>
+            <a href="lodging.html" data-testid="footer-lodging">Lodging</a>
+            <a href="transportation.html" data-testid="footer-transport">Transportation</a>
+            <a href="entertainment.html" data-testid="footer-entertainment">Entertainment</a>
+            <a href="faqs.html" data-testid="footer-faqs">FAQs</a>
+            <a href="contact.html" data-testid="footer-contact">Contact</a>
+          </div>
+          <div class="small">© 2026 Taniti Visitor Center · Prototype</div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

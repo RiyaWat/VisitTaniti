@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#8a3324" />
+    <meta name="description" content="Contact the Taniti Visitor Center and send a booking request to plan your island trip." />
+    <title>Contact &amp; Book — VisitTaniti</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="tn-nav" data-testid="main-nav">
+      <a href="index.html" class="tn-logo" data-testid="nav-logo"><i data-lucide="palmtree"></i> Visit<span>Taniti</span></a>
+      <div class="tn-links">
+        <a href="index.html" data-testid="nav-link-home">Home</a>
+        <a href="lodging.html" data-testid="nav-link-lodging">Lodging</a>
+        <a href="transportation.html" data-testid="nav-link-transportation">Transportation</a>
+        <a href="entertainment.html" data-testid="nav-link-entertainment">Entertainment</a>
+        <a href="faqs.html" data-testid="nav-link-faqs">FAQs</a>
+        <a href="contact.html" class="active" data-testid="nav-link-contact">Contact</a>
+      </div>
+      <button class="tn-burger" aria-label="Toggle menu" data-testid="nav-burger"><i data-lucide="menu"></i></button>
+    </nav>
+    <div class="tn-mobile" data-testid="mobile-menu">
+      <a href="index.html" data-testid="mobile-link-home">Home</a>
+      <a href="lodging.html" data-testid="mobile-link-lodging">Lodging</a>
+      <a href="transportation.html" data-testid="mobile-link-transportation">Transportation</a>
+      <a href="entertainment.html" data-testid="mobile-link-entertainment">Entertainment</a>
+      <a href="faqs.html" data-testid="mobile-link-faqs">FAQs</a>
+      <a href="contact.html" class="active" data-testid="mobile-link-contact">Contact</a>
+    </div>
+
+    <div class="tn-page">
+      <div class="tn-banner" data-testid="contact-banner">
+        <img src="images/contact.jpg" alt="Contact & Book Your Trip" />
+        <div class="scrim"></div>
+        <div class="inner fade-up">
+          <div class="tn-eyebrow" style="color:#f4a26b;">Plan &amp; Book</div>
+          <h1>Contact &amp; Book Your Trip</h1>
+        </div>
+      </div>
+
+      <section class="tn-wrap">
+        <div class="tn-contact-grid">
+          <div id="contact-form-wrapper">
+            <form class="tn-form" data-testid="contact-form">
+              <div class="tn-field">
+                <label for="name">Name</label>
+                <input id="name" required data-testid="input-name" placeholder="Your full name" />
+              </div>
+              <div class="tn-field">
+                <label for="email">Email</label>
+                <input id="email" type="email" required data-testid="input-email" placeholder="you@email.com" />
+              </div>
+              <div class="tn-field">
+                <label for="dates">Travel dates</label>
+                <input id="dates" data-testid="input-dates" placeholder="e.g., May 3–8" />
+              </div>
+              <div class="tn-field">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" data-testid="input-message" placeholder="Tell us about your trip..."></textarea>
+              </div>
+              <button type="submit" class="tn-btn" data-testid="contact-submit">Send / Book</button>
+            </form>
+          </div>
+          <div class="tn-info-card" data-testid="visitor-center-info">
+            <h3 class="tn-display" style="color:#8a3324;margin-top:0;">Taniti Visitor Center</h3>
+            <div class="line"><i data-lucide="phone" style="width:18px;height:18px;"></i> +1 (808) 555-0199</div>
+            <div class="line"><i data-lucide="mail" style="width:18px;height:18px;"></i> visit@taniti.example</div>
+            <div class="line"><i data-lucide="map-pin" style="width:18px;height:18px;"></i> 1 Harbor Way, Taniti City</div>
+            <p style="color:#8a3324;margin-bottom:0;">Open daily · 8 a.m. – 6 p.m. island time</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="tn-footer" data-testid="footer">
+        <div class="fwrap">
+          <div>
+            <div class="tn-logo" style="color:#fff;">Visit<span style="color:#f4a26b;">Taniti</span></div>
+            <div class="small">The official trip-planning site for the island of Taniti.</div>
+          </div>
+          <div>
+            <a href="lodging.html" data-testid="footer-lodging">Lodging</a>
+            <a href="transportation.html" data-testid="footer-transport">Transportation</a>
+            <a href="entertainment.html" data-testid="footer-entertainment">Entertainment</a>
+            <a href="faqs.html" data-testid="footer-faqs">FAQs</a>
+            <a href="contact.html" data-testid="footer-contact">Contact</a>
+          </div>
+          <div class="small">© 2026 Taniti Visitor Center · Prototype</div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

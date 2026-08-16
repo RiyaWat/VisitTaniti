@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#8a3324" />
+    <meta name="description" content="Plan the perfect trip to the island of Taniti — lodging, transportation, attractions, FAQs and booking." />
+    <title>VisitTaniti — Discover Your Island Escape</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="tn-nav" data-testid="main-nav">
+      <a href="index.html" class="tn-logo" data-testid="nav-logo"><i data-lucide="palmtree"></i> Visit<span>Taniti</span></a>
+      <div class="tn-links">
+        <a href="index.html" class="active" data-testid="nav-link-home">Home</a>
+        <a href="lodging.html" data-testid="nav-link-lodging">Lodging</a>
+        <a href="transportation.html" data-testid="nav-link-transportation">Transportation</a>
+        <a href="entertainment.html" data-testid="nav-link-entertainment">Entertainment</a>
+        <a href="faqs.html" data-testid="nav-link-faqs">FAQs</a>
+        <a href="contact.html" data-testid="nav-link-contact">Contact</a>
+      </div>
+      <button class="tn-burger" aria-label="Toggle menu" data-testid="nav-burger"><i data-lucide="menu"></i></button>
+    </nav>
+    <div class="tn-mobile" data-testid="mobile-menu">
+      <a href="index.html" class="active" data-testid="mobile-link-home">Home</a>
+      <a href="lodging.html" data-testid="mobile-link-lodging">Lodging</a>
+      <a href="transportation.html" data-testid="mobile-link-transportation">Transportation</a>
+      <a href="entertainment.html" data-testid="mobile-link-entertainment">Entertainment</a>
+      <a href="faqs.html" data-testid="mobile-link-faqs">FAQs</a>
+      <a href="contact.html" data-testid="mobile-link-contact">Contact</a>
+    </div>
+
+    <div class="tn-page">
+      <!-- HERO -->
+      <header class="tn-hero" data-testid="hero">
+        <img class="bg" src="images/hero.jpg" alt="Taniti island at sunset" />
+        <div class="scrim"></div>
+        <div class="content fade-up">
+          <div class="tn-eyebrow">The Island of Taniti · South Pacific</div>
+          <h1 class="tn-display">Discover Taniti — Your Island Escape</h1>
+          <p>Plan the perfect first trip to Taniti: where to stay, how to get around, and the very best things to do.</p>
+          <div class="cta-row">
+            <a href="lodging.html" class="tn-btn" data-testid="plan-trip-btn">Plan Your Trip <i data-lucide="arrow-right"></i></a>
+            <a href="entertainment.html" class="tn-btn ghost" data-testid="explore-now-btn" style="color:#fff;border-color:#fff;">Explore Now</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="tn-wrap">
+        <div class="tn-section-head">
+          <div class="tn-eyebrow">Welcome to paradise</div>
+          <h2 class="tn-h2">Everything you need to plan your visit</h2>
+          <p class="tn-lead">Taniti is a warm, welcoming island where you can arrive by air, explore Taniti City on foot, and unwind at Merriton Landing. Start planning below.</p>
+        </div>
+
+        <div class="tn-grid cols-3">
+          <a href="lodging.html" class="tn-card reveal" data-testid="preview-lodging">
+            <img src="images/lodging.jpg" alt="Lodging" />
+            <div class="body">
+              <div class="tn-badge"><i data-lucide="bed-double" style="width:14px;height:14px;margin-right:4px;"></i>Lodging</div>
+              <p style="flex:1;">From luxury resorts to budget campgrounds.</p>
+              <span class="tn-btn small" style="align-self:flex-start;">Explore <i data-lucide="arrow-right" style="width:15px;height:15px;"></i></span>
+            </div>
+          </a>
+          <a href="transportation.html" class="tn-card reveal" data-testid="preview-transportation">
+            <img src="images/transportation.jpg" alt="Transportation" />
+            <div class="body">
+              <div class="tn-badge"><i data-lucide="bus" style="width:14px;height:14px;margin-right:4px;"></i>Transportation</div>
+              <p style="flex:1;">Buses, taxis, bikes, and rental cars.</p>
+              <span class="tn-btn small" style="align-self:flex-start;">Explore <i data-lucide="arrow-right" style="width:15px;height:15px;"></i></span>
+            </div>
+          </a>
+          <a href="entertainment.html" class="tn-card reveal" data-testid="preview-attractions">
+            <img src="images/entertainment.jpg" alt="Attractions" />
+            <div class="body">
+              <div class="tn-badge"><i data-lucide="palmtree" style="width:14px;height:14px;margin-right:4px;"></i>Attractions</div>
+              <p style="flex:1;">Merriton Landing, volcano hikes &amp; beaches.</p>
+              <span class="tn-btn small" style="align-self:flex-start;">Explore <i data-lucide="arrow-right" style="width:15px;height:15px;"></i></span>
+            </div>
+          </a>
+        </div>
+
+        <div class="tn-callout reveal" data-testid="home-cta">
+          <h3 class="tn-display">First time visiting Taniti?</h3>
+          <p>Check our FAQs for quick answers on the drinking age, currency, safety, and getting around — then send us a booking request.</p>
+          <div style="margin-top:1.2rem;display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="faqs.html" class="tn-btn" data-testid="home-faq-btn" style="background:#fff;color:#8a3324;">View FAQs</a>
+            <a href="contact.html" class="tn-btn ghost" data-testid="home-contact-btn" style="color:#fff;border-color:#fff;">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="tn-deliver reveal" data-testid="deliverables">
+          <h3><i data-lucide="file-down"></i>WGU Task 1 Deliverables</h3>
+          <p style="margin:0;color:#8a3324;">Download the rubric-mapped Word documents (A–G).</p>
+          <div class="dl-grid">
+            <a class="dl" href="deliverables/A_Timeline.docx" download data-testid="dl-A_Timeline.docx"><i data-lucide="file-down" style="width:16px;height:16px;"></i> A — Timeline</a>
+            <a class="dl" href="deliverables/B_Persona.docx" download data-testid="dl-B_Persona.docx"><i data-lucide="file-down" style="width:16px;height:16px;"></i> B — Persona</a>
+            <a class="dl" href="deliverables/C_Wireframe.docx" download data-testid="dl-C_Wireframe.docx"><i data-lucide="file-down" style="width:16px;height:16px;"></i> C — Wireframe &amp; Flow</a>
+            <a class="dl" href="deliverables/D_Guerrilla_Testing.docx" download data-testid="dl-D_Guerrilla_Testing.docx"><i data-lucide="file-down" style="width:16px;height:16px;"></i> D — Guerrilla Testing</a>
+            <a class="dl" href="deliverables/E_Prototype_Build_Guide.docx" download data-testid="dl-E_Prototype_Build_Guide.docx"><i data-lucide="file-down" style="width:16px;height:16px;"></i> E — Prototype Guide</a>
+            <a class="dl" href="deliverables/F_Usability_Tasks.docx" download data-testid="dl-F_Usability_Tasks.docx"><i data-lucide="file-down" style="width:16px;height:16px;"></i> F — Usability Tasks</a>
+            <a class="dl" href="deliverables/G_References.docx" download data-testid="dl-G_References.docx"><i data-lucide="file-down" style="width:16px;height:16px;"></i> G — APA References</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="tn-footer" data-testid="footer">
+        <div class="fwrap">
+          <div>
+            <div class="tn-logo" style="color:#fff;">Visit<span style="color:#f4a26b;">Taniti</span></div>
+            <div class="small">The official trip-planning site for the island of Taniti.</div>
+          </div>
+          <div>
+            <a href="lodging.html" data-testid="footer-lodging">Lodging</a>
+            <a href="transportation.html" data-testid="footer-transport">Transportation</a>
+            <a href="entertainment.html" data-testid="footer-entertainment">Entertainment</a>
+            <a href="faqs.html" data-testid="footer-faqs">FAQs</a>
+            <a href="contact.html" data-testid="footer-contact">Contact</a>
+          </div>
+          <div class="small">© 2026 Taniti Visitor Center · Prototype</div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

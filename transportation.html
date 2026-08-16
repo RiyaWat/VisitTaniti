@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#8a3324" />
+    <meta name="description" content="Getting around Taniti — rental cars, public and private buses, taxis, bikes, and walkable towns." />
+    <title>Transportation on Taniti — VisitTaniti</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="tn-nav" data-testid="main-nav">
+      <a href="index.html" class="tn-logo" data-testid="nav-logo"><i data-lucide="palmtree"></i> Visit<span>Taniti</span></a>
+      <div class="tn-links">
+        <a href="index.html" data-testid="nav-link-home">Home</a>
+        <a href="lodging.html" data-testid="nav-link-lodging">Lodging</a>
+        <a href="transportation.html" class="active" data-testid="nav-link-transportation">Transportation</a>
+        <a href="entertainment.html" data-testid="nav-link-entertainment">Entertainment</a>
+        <a href="faqs.html" data-testid="nav-link-faqs">FAQs</a>
+        <a href="contact.html" data-testid="nav-link-contact">Contact</a>
+      </div>
+      <button class="tn-burger" aria-label="Toggle menu" data-testid="nav-burger"><i data-lucide="menu"></i></button>
+    </nav>
+    <div class="tn-mobile" data-testid="mobile-menu">
+      <a href="index.html" data-testid="mobile-link-home">Home</a>
+      <a href="lodging.html" data-testid="mobile-link-lodging">Lodging</a>
+      <a href="transportation.html" class="active" data-testid="mobile-link-transportation">Transportation</a>
+      <a href="entertainment.html" data-testid="mobile-link-entertainment">Entertainment</a>
+      <a href="faqs.html" data-testid="mobile-link-faqs">FAQs</a>
+      <a href="contact.html" data-testid="mobile-link-contact">Contact</a>
+    </div>
+
+    <div class="tn-page">
+      <div class="tn-banner" data-testid="transport-banner">
+        <img src="images/transportation.jpg" alt="Transportation on Taniti" />
+        <div class="scrim"></div>
+        <div class="inner fade-up">
+          <div class="tn-eyebrow" style="color:#f4a26b;">Getting Around</div>
+          <h1>Transportation on Taniti</h1>
+        </div>
+      </div>
+
+      <section class="tn-wrap">
+        <div class="tn-section-head">
+          <h2 class="tn-h2">Getting around the island</h2>
+          <p class="tn-lead">Most visitors arrive by air, then choose from several easy ways to explore Taniti.</p>
+        </div>
+        <div class="tn-stack" style="max-width:820px;margin:0 auto;">
+          <div class="tn-row reveal" data-testid="transport-rental-cars">
+            <div class="icon"><i data-lucide="car"></i></div>
+            <div><h4>Rental Cars</h4><p>Rent from a local agency near the airport to explore the island at your own pace.</p></div>
+          </div>
+          <div class="tn-row reveal" data-testid="transport-public-buses">
+            <div class="icon"><i data-lucide="bus"></i></div>
+            <div><h4>Public Buses</h4><p>Serve Taniti City daily from 5 a.m. to 11 p.m. — affordable and easy for visitors.</p></div>
+          </div>
+          <div class="tn-row reveal" data-testid="transport-private-island-buses">
+            <div class="icon"><i data-lucide="route"></i></div>
+            <div><h4>Private Island Buses</h4><p>Reach the rest of the island beyond Taniti City on private bus routes.</p></div>
+          </div>
+          <div class="tn-row reveal" data-testid="transport-taxis">
+            <div class="icon"><i data-lucide="car"></i></div>
+            <div><h4>Taxis</h4><p>Readily available throughout Taniti City for quick, direct trips.</p></div>
+          </div>
+          <div class="tn-row reveal" data-testid="transport-bike-rentals">
+            <div class="icon"><i data-lucide="bike"></i></div>
+            <div><h4>Bike Rentals</h4><p>Rent bikes from several vendors. Helmets are required by law and provided.</p></div>
+          </div>
+        </div>
+        <div class="tn-callout reveal" data-testid="no-car-callout">
+          <h3 class="tn-display">No car? No problem.</h3>
+          <p>You can get around Taniti without renting a car using <strong>public buses</strong> (Taniti City, 5 a.m.–11 p.m.), <strong>private island buses</strong>, <strong>taxis</strong>, <strong>bike rentals</strong> (helmet required), or simply <strong>walking</strong> — Taniti City and Merriton Landing are very walkable.</p>
+        </div>
+      </section>
+
+      <footer class="tn-footer" data-testid="footer">
+        <div class="fwrap">
+          <div>
+            <div class="tn-logo" style="color:#fff;">Visit<span style="color:#f4a26b;">Taniti</span></div>
+            <div class="small">The official trip-planning site for the island of Taniti.</div>
+          </div>
+          <div>
+            <a href="lodging.html" data-testid="footer-lodging">Lodging</a>
+            <a href="transportation.html" data-testid="footer-transport">Transportation</a>
+            <a href="entertainment.html" data-testid="footer-entertainment">Entertainment</a>
+            <a href="faqs.html" data-testid="footer-faqs">FAQs</a>
+            <a href="contact.html" data-testid="footer-contact">Contact</a>
+          </div>
+          <div class="small">© 2026 Taniti Visitor Center · Prototype</div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
